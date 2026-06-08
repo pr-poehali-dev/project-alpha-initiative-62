@@ -19,19 +19,25 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/9a85191e-b4bc-49e2-8281-211475113d8b/files/43f71071-418d-4623-adcf-1b62d88bab1c.jpg"
+          alt="Luxury cars on mountain road"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          СРАВНИ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Найди своё идеальное авто — сравни характеристики, цены и отзывы в одном месте
         </p>
+        <a
+          href="#compare"
+          className="inline-block mt-8 px-8 py-3 border border-white text-white uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300"
+        >
+          Начать сравнение
+        </a>
       </div>
     </div>
   );
