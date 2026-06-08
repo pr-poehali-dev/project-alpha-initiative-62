@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "name": "Get car makes",
+      "method": "GET",
+      "path": "/?action=makes",
+      "expectedStatus": 200,
+      "expectedBody": {"makes": ["BMW"]},
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Get models for Toyota 2023",
+      "method": "GET",
+      "path": "/?action=models&make=Toyota&year=2023",
+      "expectedStatus": 200,
+      "expectedBody": {"models": ["Camry"]},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

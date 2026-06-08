@@ -1,7 +1,11 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 
-export default function Hero() {
+interface HeroProps {
+  onCompareClick: () => void;
+}
+
+export default function Hero({ onCompareClick }: HeroProps) {
   const container = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -32,12 +36,12 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Найди своё идеальное авто — сравни характеристики, цены и отзывы в одном месте
         </p>
-        <a
-          href="#compare"
-          className="inline-block mt-8 px-8 py-3 border border-white text-white uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300"
+        <button
+          onClick={onCompareClick}
+          className="inline-block mt-8 px-8 py-3 border border-white text-white uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"
         >
           Начать сравнение
-        </a>
+        </button>
       </div>
     </div>
   );
