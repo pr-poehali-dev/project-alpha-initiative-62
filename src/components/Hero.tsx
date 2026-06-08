@@ -19,7 +19,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/9a85191e-b4bc-49e2-8281-211475113d8b/files/43f71071-418d-4623-adcf-1b62d88bab1c.jpg"
+          src="https://cdn.poehali.dev/projects/9a85191e-b4bc-49e2-8281-211475113d8b/files/409292af-d026-40ce-af79-bcfd0eddcfb6.jpg"
           alt="Luxury cars on mountain road"
           className="w-full h-full object-cover"
         />

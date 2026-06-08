@@ -3,7 +3,7 @@ export default function Featured() {
     <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-white">
       <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
         <img
-          src="https://cdn.poehali.dev/projects/9a85191e-b4bc-49e2-8281-211475113d8b/files/d3861c18-c9da-4756-898b-3ca212cb4d6e.jpg"
+          src="https://cdn.poehali.dev/projects/9a85191e-b4bc-49e2-8281-211475113d8b/files/4ba6df1c-e91f-495c-b394-36ee01e4ca92.jpg"
           alt="Car interior dashboard"
           className="w-full h-full object-cover"
         />
